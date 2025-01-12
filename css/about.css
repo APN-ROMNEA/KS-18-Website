@@ -1,0 +1,174 @@
+body {
+  font-family: "Newsreader", serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo1 img {
+  width: 190px;
+  height: auto;
+  justify-content: end;
+}
+
+.logo img {
+  width: 190px;
+  height: auto;
+  margin-left: 2px;
+}
+
+.logo2 img {
+  width: 100px;
+  height: auto;
+}
+
+.navi {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(3, 3, 3);
+  z-index: 1;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 10px 17px 82px 11px rgba(56, 54, 59, 0.375);
+  border: 0px;
+  border-radius: 2px;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navi ul li {
+  display: inline-block;
+  margin: 0 100px;
+  text-transform: uppercase;
+}
+
+.navi ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navi ul li a:hover {
+  color: rgb(231, 153, 8);
+  text-shadow: 2px 0.5px 2px;
+  border: 2px solid rgb(231, 153, 8);
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+}
+.middd {
+  display: flex;
+}
+.fpic {
+  background-image: url("/img/about.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 900px;
+  background-position: left;
+}
+.letter {
+  margin-top: 4%;
+  background-color: #f7f7f7;
+  background-size: cover;
+  width: 50%;
+}
+.letter h3 {
+  margin-left: 10%;
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  line-height: 1.2px;
+  color: #333;
+}
+.q {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 2%;
+  font-size: 12px;
+  margin-top: 10%;
+}
+.q1 {
+  border: 1px double rgb(27, 28, 24);
+  width: 100px;
+  margin-left: 2%;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(206, 109, 74);
+  color: aliceblue;
+}
+.q1 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.q1:hover {
+  background-color: #333;
+  transform: translateY(-7px);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+.q2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  line-height: 1.2px;
+  color: #333;
+  margin-left: 50%;
+}
+.q3 {
+  margin-left: 55%;
+  margin-top: 4%;
+}
+
+.q4 {
+  background-image: url("/img/spare\ part.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+  margin-left: 5%;
+}
+.q5 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  line-height: 1.2px;
+  color: #333;
+  margin-left: 58%;
+  margin-top: -35%;
+}
+
+.q6 {
+  padding-top: 2%;
+  margin-left: 55%;
+  font-size: 15px;
+}
+.q7 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  line-height: 1.2px;
+  color: #333;
+  margin-left: 5%;
+  margin-top: 8%;
+}
+.q8 {
+  display: flex;
+  height: 10rem;
+  gap: 1rem;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+.q8 > div {
+  flex: 1;
+  border-radius: 1rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+.q8 > div:hover {
+  flex: 5;
+}

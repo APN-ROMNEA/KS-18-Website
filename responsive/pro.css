@@ -1,0 +1,269 @@
+/* For devices with a maximum width of 1200px (e.g., tablets and small desktops) */
+@media (max-width: 1285px) {
+  .navi ul li {
+    margin: 0 50px;
+  }
+  .middle {
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+  }
+
+  .m1 {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
+    margin-left: 7%;
+  }
+
+  .m2 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    margin-top: 0%;
+  }
+
+  .f1 {
+    margin-left: 9%;
+    font-size: 90px;
+  }
+
+  .f2 {
+    margin-top: -10%;
+    font-size: 90px;
+
+    letter-spacing: 5px;
+  }
+
+  .f3 {
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-variant: small-caps;
+    margin-top: -2%;
+  }
+  .p {
+    width: 100%;
+    margin-top: -8%;
+
+    height: 1200px;
+  }
+  .p1 {
+    height: 300px;
+    width: 100%;
+    margin-left: 43%;
+    border-radius: 220px 0 0 0;
+  }
+  #row {
+    margin-left: 25%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .q {
+    width: 100%;
+    height: 1500px;
+  }
+  .p2 {
+    height: 40%;
+    width: 40%;
+    background-image: url("/img/bmw-2020-new-logo.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .box1-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 1036px) {
+  .middle {
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+  }
+
+  .m1 {
+    z-index: -100;
+  }
+
+  .m2 {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 0%;
+  }
+
+  .f1 {
+    margin-left: 5%;
+    font-size: 70px;
+  }
+
+  .f2 {
+    margin-top: 0%;
+    font-size: 70px;
+    letter-spacing: 3px;
+  }
+
+  .f3 {
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+
+  .p {
+    width: 100%;
+    margin-top: -7%;
+    height: 1250px;
+  }
+
+  .p1 {
+    height: 250px;
+    width: 100%;
+    margin-left: 35%;
+    border-radius: 180px 0 0 0;
+  }
+
+  #row {
+    margin-left: 15%;
+    gap: 20px;
+  }
+  .q {
+    width: 100%;
+    height: 1200px;
+  }
+  .p2 {
+    height: 30%;
+    width: 60%;
+    background-image: url("/img/bmw-2020-new-logo.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+  }
+
+  .box1-container {
+    gap: 20px;
+    margin-top: -5%;
+  }
+
+  .sticky-xxl-bottom {
+    bottom: 0;
+    text-align: center;
+    margin: 10px;
+  }
+  #row1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack logos vertically */
+    align-items: center;
+  }
+  .navi ul {
+    display: flex;
+    flex-direction: column; /* Stack navigation links vertically */
+    padding: 0;
+  }
+  .navi ul li {
+    margin: 10px 0;
+    font-size: smaller;
+  }
+
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+  .grid {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+  }
+  .foot {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .sticky-xxl-bottom {
+    font-size: smaller;
+  }
+}
+
+@media (max-width: 512px) {
+  .logo1 img,
+  .logo img,
+  .logo2 img {
+    width: 120px; /* Scale down logo sizes */
+  }
+  .navi ul li {
+    margin: 5px 0; /* Reduce spacing between links */
+  }
+  .navi ul li a:hover {
+    color: rgb(231, 153, 8);
+    text-shadow: 2px 0.5px 2px;
+    transition: all 0.2s ease-in;
+    border: none;
+  }
+
+  .row {
+    width: 100%;
+    margin: 10px;
+    display: flexbox;
+    text-justify: auto;
+    text-align: center;
+    font-size: smaller;
+  }
+  .sticky-xxl-bottom {
+    font-size: smaller;
+    bottom: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  .row {
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .text h1 {
+    font-size: 25px;
+  }
+  .navi ul li a:hover {
+    color: rgb(231, 153, 8);
+    text-shadow: 2px 0.5px 2px;
+    transition: all 0.2s ease-in;
+    border: none;
+  }
+
+  .row {
+    margin-top: 10px;
+    margin: -10px;
+    display: flex;
+    font-size: 9px;
+    text-align: center;
+  }
+  .sticky-xxl-bottom {
+    font-size: 0.7rem;
+    bottom: 0;
+    text-align: center;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .icon a i {
+    font-size: smaller;
+  }
+}

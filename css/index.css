@@ -1,0 +1,122 @@
+body {
+  font-family: "Newsreader", serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo1 img {
+  width: 190px;
+  height: auto;
+  justify-content: end;
+}
+
+.logo img {
+  width: 190px;
+  height: auto;
+  margin-left: 2px;
+}
+
+.logo2 img {
+  width: 100px;
+  height: auto;
+}
+
+.navi {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgb(3, 3, 3);
+  z-index: 1;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 10px 17px 82px 11px rgba(56, 54, 59, 0.375);
+  border: 0px;
+  border-radius: 2px;
+}
+
+.navi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navi ul li {
+  display: inline-block;
+  margin: 0 100px;
+  text-transform: uppercase;
+}
+
+.navi ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navi ul li a:hover {
+  color: rgb(231, 153, 8);
+  text-shadow: 2px 0.5px 2px;
+  border: 2px solid rgb(231, 153, 8);
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  padding: 10px;
+}
+
+.middle {
+  background-image: url("/img/b.jpg");
+  height: 700px;
+  font-family: "Chakra Petch", serif;
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  margin: 0;
+  padding: 13%;
+  text-align: left;
+
+  justify-content: center;
+  padding: 13% 0;
+}
+.text h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 6px;
+  font-size: 60px;
+  margin: 0;
+  padding-left: 7%;
+  color: aliceblue;
+}
+.text h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 15px;
+  padding-left: 4%;
+  color: aliceblue;
+  margin-bottom: 1%;
+}
+.text a {
+  text-decoration: none;
+  margin-left: 12%;
+  color: black;
+  border: 1px solid rgb(28, 21, 21);
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 0.3%;
+  letter-spacing: 2px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.text a:hover {
+  background-color: rgb(71, 68, 68);
+  background: linear-gradient(
+    304deg,
+    rgba(71, 68, 68, 0.7820378151260504) 18%,
+    rgba(0, 0, 0, 0.9136904761904762) 75%
+  );
+  transition: 0.2s ease-in-out;
+  color: aliceblue;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.3);
+  border: 1px solid grey;
+  border: 1px solid gray;
+}
