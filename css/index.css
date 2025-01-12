@@ -64,7 +64,7 @@ body {
 }
 
 .middle {
-  background-image: url("img/b.jpg");
+  background-image: url("/img/b.jpg");
   height: 700px;
   font-family: "Chakra Petch", serif;
   background-size: cover;
