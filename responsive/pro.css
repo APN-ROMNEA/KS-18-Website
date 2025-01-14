@@ -169,12 +169,12 @@
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; /* Stack logos vertically */
+    flex-direction: column;
     align-items: center;
   }
   .navi ul {
     display: flex;
-    flex-direction: column; /* Stack navigation links vertically */
+    flex-direction: column;
     padding: 0;
   }
   .navi ul li {
@@ -206,10 +206,10 @@
   .logo1 img,
   .logo img,
   .logo2 img {
-    width: 120px; /* Scale down logo sizes */
+    width: 120px;
   }
   .navi ul li {
-    margin: 5px 0; /* Reduce spacing between links */
+    margin: 5px 0;
   }
   .navi ul li a:hover {
     color: rgb(231, 153, 8);

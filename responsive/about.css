@@ -206,6 +206,7 @@
   }
   .q7 {
     text-justify: newspaper;
+    font-size: 20px;
     margin: 0;
     margin-top: 10%;
   }
@@ -271,8 +272,6 @@
 }
 
 @media (max-width: 320px) {
-}
-@media (max-width: 320px) {
   .navi ul li a:hover {
     color: rgb(231, 153, 8);
     text-shadow: 2px 0.5px 2px;
@@ -296,5 +295,23 @@
   }
   .icon a i {
     font-size: smaller;
+  }
+}
+@media (max-width: 275px) {
+  .q5 {
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  .row {
+    font-size: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .g-col-8.logo img {
+    width: 90px;
+  }
+  .icon a i {
+    font-size: 5px;
+    margin-left: 14px;
   }
 }

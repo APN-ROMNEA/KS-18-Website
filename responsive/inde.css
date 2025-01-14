@@ -11,36 +11,34 @@
   }
 }
 @media (max-width: 1036px) {
-    .sticky-xxl-bottom {
-        bottom: 0;
-        text-align: center;
-        margin: 10px;
-        
-      }
-    .row{
-        text-align: center;
-        width: 100%;
-        
-    }  
-
-
+  .sticky-xxl-bottom {
+    bottom: 0;
+    text-align: center;
+    margin: 10px;
+  }
+  .row {
+    text-align: center;
+    width: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .header {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
   }
   .navi ul {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     padding: 0;
   }
   .navi ul li {
     margin: 10px 0;
     font-size: smaller;
   }
+
   .middle {
-    height: 500px; 
+    height: 500px;
   }
   .text {
     padding: 10%;
@@ -76,26 +74,16 @@
   .logo1 img,
   .logo img,
   .logo2 img {
-    width: 120px; 
-  }
-  .navi ul li {
-    margin: 5px 0; 
-  }
-  .navi ul li a:hover {
-    color: rgb(231, 153, 8);
-    text-shadow: 2px 0.5px 2px;
-    transition: all 0.2s ease-in;
-    border: none;
+    width: 120px;
   }
   .text {
     padding: 5%;
-    text-align: center; 
+    text-align: center;
   }
-  .text h1 {
-    font-size: 30px;
-  }
-  .text h3 {
-    font-size: 14px;
+
+  #get {
+    margin-left: 7px;
+    font-size: 20px;
     letter-spacing: 3px;
   }
   .text a {
@@ -103,13 +91,16 @@
     padding: 5px 10px;
     margin-right: 5%;
   }
+
   .row {
     width: 100%;
     margin: 10px;
-    display: flexbox;
+    display: flex;
     text-justify: auto;
     text-align: center;
     font-size: smaller;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .sticky-xxl-bottom {
     font-size: smaller;
@@ -117,22 +108,50 @@
     text-align: center;
   }
 }
-@media (max-width: 360px) {
-    .row{
-        font-size: 10px;
-    }
-}
-@media (max-width: 320px) {
-  .text h1 {
-    font-size: 25px;
+@media (max-width: 480px) {
+  .navi ul li a {
+    margin: 10px 0;
   }
+  .navi ul li a:hover {
+    color: rgb(231, 153, 8);
+    text-shadow: 2px 0.5px 2px;
+    border-radius: none;
+    transition: all 0.2s ease-in;
+  }
+  .g-col-8.logo img {
+    width: 150px;
+  }
+
+  .icon a i {
+    font-size: 10px;
+  }
+
+  .row {
+    margin: 7px;
+    font-size: 8px;
+  }
+}
+@media (max-width: 360px) {
+  #welcome {
+    font-size: 40px;
+  }
+  .row {
+    font-size: 7px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .g-col-8.logo img {
+    width: 120px;
+  }
+}
+@media (min-width: 150px) and (max-width: 320px) {
   .navi ul li a:hover {
     color: rgb(231, 153, 8);
     text-shadow: 2px 0.5px 2px;
     transition: all 0.2s ease-in;
     border: none;
   }
-  .text h3 {
+  #get {
     font-size: 12px;
     letter-spacing: 2px;
   }
@@ -142,10 +161,16 @@
   }
   .row {
     margin-top: 10px;
-    margin: -10px;
     display: flex;
-    font-size: 9px;
+
+    font-size: 6px;
     text-align: center;
+  }
+  .g-col-8.logo img {
+    width: 100px;
+  }
+  .icon a i {
+    font-size: 10px;
   }
   .sticky-xxl-bottom {
     font-size: 0.7rem;
@@ -153,9 +178,24 @@
     text-align: center;
     padding-right: 10px;
     display: flex;
-    flex-direction: column;
   }
   .icon a i {
     font-size: smaller;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 275px) {
+  .row {
+    font-size: 4px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .g-col-8.logo img {
+    width: 90px;
+  }
+  .icon a i {
+    font-size: 5px;
+    margin-left: 14px;
   }
 }
